@@ -1,0 +1,58 @@
+/* =========================
+   MOBILE RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+
+    #ui-layer {
+        bottom: 20px;
+        padding: 0 12px;
+    }
+
+    .badge {
+        font-size: 14px;
+        padding: 8px 18px;
+        letter-spacing: 0.5px;
+        box-shadow: 0 0 12px rgba(255, 215, 0, 0.4);
+    }
+
+    .guide {
+        font-size: 12px;
+        margin-bottom: 14px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 280px;
+        padding: 14px 0;
+        font-size: 15px;
+        border-radius: 26px;
+        animation: pulse 2s infinite;
+    }
+
+    #camera-preview {
+        width: 90px;
+        height: 68px;
+        top: 10px;
+        right: 10px;
+        opacity: 0.5;
+    }
+}
+
+/* Mobile rất nhỏ (iPhone SE, Android mini) */
+@media (max-width: 400px) {
+
+    .badge {
+        font-size: 13px;
+        padding: 7px 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 13px 0;
+    }
+
+    #camera-preview {
+        width: 75px;
+        height: 56px;
+    }
+}
